@@ -1,0 +1,5 @@
+pandas
+numpy>=1.26.0
+lightweight-mmm
+jax>=0.4.20
+jaxlib>=0.4.20

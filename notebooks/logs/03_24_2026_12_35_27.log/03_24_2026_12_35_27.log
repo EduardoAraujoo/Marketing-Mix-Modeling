@@ -1,0 +1,4 @@
+[ 2026-03-24 12:35:27,685 ] 15 root - INFO - Iniciando a ingestao de dados
+[ 2026-03-24 12:35:27,696 ] 896 jax._src.xla_bridge - INFO - Unable to initialize backend 'cuda': 
+[ 2026-03-24 12:35:27,696 ] 896 jax._src.xla_bridge - INFO - Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+[ 2026-03-24 12:35:27,699 ] 896 jax._src.xla_bridge - INFO - Unable to initialize backend 'tpu': UNIMPLEMENTED: LoadPjrtPlugin is not implemented on windows yet.

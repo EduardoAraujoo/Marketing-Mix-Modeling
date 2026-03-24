@@ -1,0 +1,9 @@
+[ 2026-03-24 12:32:50,717 ] 15 root - INFO - Iniciando a ingestao de dados
+[ 2026-03-24 12:32:50,727 ] 896 jax._src.xla_bridge - INFO - Unable to initialize backend 'cuda': 
+[ 2026-03-24 12:32:50,727 ] 896 jax._src.xla_bridge - INFO - Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+[ 2026-03-24 12:32:50,729 ] 896 jax._src.xla_bridge - INFO - Unable to initialize backend 'tpu': UNIMPLEMENTED: LoadPjrtPlugin is not implemented on windows yet.
+[ 2026-03-24 12:32:51,850 ] 142 absl - INFO - Correlation between transformed media and target
+[ 2026-03-24 12:32:51,903 ] 143 absl - INFO - [-0.08548280566955492, 0.4821349988964954, 0.33847885308194076]
+[ 2026-03-24 12:32:51,903 ] 149 absl - INFO - True ROI for media channels
+[ 2026-03-24 12:32:52,544 ] 150 absl - INFO - [Array(-3.407983, dtype=float32), Array(18.762829, dtype=float32), Array(15.909696, dtype=float32)]
+[ 2026-03-24 12:32:52,564 ] 64 root - ERROR - Erro ocorrido na Ingestao: All arrays must be of the same length
