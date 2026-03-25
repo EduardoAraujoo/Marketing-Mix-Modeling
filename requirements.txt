@@ -3,3 +3,7 @@ numpy>=1.26.0
 lightweight-mmm
 jax>=0.4.20
 jaxlib>=0.4.20
+matplotlib>=3.8.4
+seaborn>=0.13.2
+pandas
+numpy
