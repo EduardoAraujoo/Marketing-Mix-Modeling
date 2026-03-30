@@ -3,6 +3,8 @@ import seaborn as sns
 from src.logger import logging
 from src.exception import CustomException
 import sys
+import pandas as pd
+import numpy as np
 
 def apply_corporate_style():
     """
@@ -25,3 +27,5 @@ def apply_corporate_style():
         logging.info("Estilo Visual Corporativo aplicado.")
     except Exception as e:
         raise CustomException(e, sys)
+    
+

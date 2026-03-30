@@ -1,0 +1,9 @@
+[ 2026-03-30 10:51:02,014 ] 15 root - INFO - Iniciando a ingestao de dados
+[ 2026-03-30 10:51:02,144 ] 896 jax._src.xla_bridge - INFO - Unable to initialize backend 'cuda': 
+[ 2026-03-30 10:51:02,145 ] 896 jax._src.xla_bridge - INFO - Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+[ 2026-03-30 10:51:02,147 ] 896 jax._src.xla_bridge - INFO - Unable to initialize backend 'tpu': UNIMPLEMENTED: LoadPjrtPlugin is not implemented on windows yet.
+[ 2026-03-30 10:51:03,236 ] 142 absl - INFO - Correlation between transformed media and target
+[ 2026-03-30 10:51:03,287 ] 143 absl - INFO - [-0.08548280566955492, 0.4821349988964954, 0.33847885308194076]
+[ 2026-03-30 10:51:03,287 ] 149 absl - INFO - True ROI for media channels
+[ 2026-03-30 10:51:03,811 ] 150 absl - INFO - [Array(-3.407983, dtype=float32), Array(18.762829, dtype=float32), Array(15.909696, dtype=float32)]
+[ 2026-03-30 10:51:03,836 ] 63 root - INFO - Ingestao concluida com sucesso

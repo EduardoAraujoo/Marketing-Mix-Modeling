@@ -1,0 +1,18 @@
+[ 2026-03-25 16:40:59,474 ] 559 autoreload - ERROR - Failed to read module file 'd:\Programacao\MMM\src\eda_utils.py' for module 'src.eda_utils': UnicodeDecodeError
+Traceback (most recent call last):
+  File "d:\Programacao\MMM\.venv\Lib\site-packages\IPython\extensions\deduperreload\deduperreload.py", line 556, in maybe_reload_module
+    new_source_code = f.read()
+                      ^^^^^^^^
+  File "C:\Users\Eduardo\AppData\Local\Programs\Python\Python311\Lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 919: character maps to <undefined>
+[ 2026-03-25 16:41:14,400 ] 222 autoreload - ERROR - Failed to read module file 'd:\Programacao\MMM\src\eda_utils.py' for module 'src.eda_utils': UnicodeDecodeError
+Traceback (most recent call last):
+  File "d:\Programacao\MMM\.venv\Lib\site-packages\IPython\extensions\deduperreload\deduperreload.py", line 219, in update_sources
+    self.source_by_modname[new_modname] = f.read()
+                                          ^^^^^^^^
+  File "C:\Users\Eduardo\AppData\Local\Programs\Python\Python311\Lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 919: character maps to <undefined>
