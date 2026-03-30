@@ -1,0 +1,13 @@
+[ 2026-03-30 11:15:14,902 ] 15 root - INFO - Iniciando a ingestao de dados
+[ 2026-03-30 11:15:15,039 ] 896 jax._src.xla_bridge - INFO - Unable to initialize backend 'cuda': 
+[ 2026-03-30 11:15:15,039 ] 896 jax._src.xla_bridge - INFO - Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+[ 2026-03-30 11:15:15,041 ] 896 jax._src.xla_bridge - INFO - Unable to initialize backend 'tpu': UNIMPLEMENTED: LoadPjrtPlugin is not implemented on windows yet.
+[ 2026-03-30 11:15:16,196 ] 142 absl - INFO - Correlation between transformed media and target
+[ 2026-03-30 11:15:16,247 ] 143 absl - INFO - [-0.08548280566955492, 0.4821349988964954, 0.33847885308194076]
+[ 2026-03-30 11:15:16,249 ] 149 absl - INFO - True ROI for media channels
+[ 2026-03-30 11:15:16,776 ] 150 absl - INFO - [Array(-3.407983, dtype=float32), Array(18.762829, dtype=float32), Array(15.909696, dtype=float32)]
+[ 2026-03-30 11:15:16,801 ] 63 root - INFO - Ingestao concluida com sucesso
+[ 2026-03-30 11:15:17,910 ] 223 matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+[ 2026-03-30 11:15:17,914 ] 223 matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+[ 2026-03-30 11:23:17,775 ] 223 matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+[ 2026-03-30 11:23:17,778 ] 223 matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
